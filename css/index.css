@@ -1,0 +1,12 @@
+ * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    font-family: 'Asap', sans-serif;
+  } 
+  .top {
+      background: linear-gradient(blue, pink);
+      
+  }
