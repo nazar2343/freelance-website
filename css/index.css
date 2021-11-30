@@ -30,7 +30,7 @@
   .topnav{
     color: #000;
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: -15px;
   }
   .topnav a{
     color: rgb(253, 251, 251);
@@ -45,31 +45,36 @@
   .topnav .icon{
     display: none;
   }
-  @media screen and (max-width: 768px){
-    .topnav a:not(:first-child) {
-      display: none;
-    }
-    .topnav a.icon{
-      float: right;
-      margin-top: -17px;
-      display: block;
-      color:black;
-    }
-    nav{
-      width: 100%;
-      height: 100px;
-    }
-    .topnav.responsive{
-      position: relative;
-    }
-    .topnav.responsive a.icon{
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a{
-      float: none;
-      display: block;
-      text-align: left;
-    }
+  .container-one{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+   margin-top: 230px;
+   margin-left:110px;
+   background: linear-gradient(rgb(255, 255, 255), rgb(0, 158, 163));
+   max-width: 500px;
+   height: 300px;
   }
+  .container-one h3{
+    font-size:30px;
+  }
+  .container-one button{
+    max-width: 220px;
+    max-height: 50px;
+
+  }
+.img-header{
+  display: flex;
+  justify-content: end;
+}
+.img-header img{
+  max-width: 500px;
+  height: 300px;
+  margin-right:110px;
+  margin-top:-300px;
+}
+.top{
+  display: absolute;
+}
+  
+  
