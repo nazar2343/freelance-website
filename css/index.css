@@ -8,6 +8,7 @@
   } 
   .top {
       background: linear-gradient(blue, pink);
+      height: 100vh;
       
   }
   a{
@@ -49,7 +50,7 @@
     display: flex;
     justify-content: start;
     flex-direction: column;
-   margin-top: 230px;
+   margin-top: 180px;
    margin-left:110px;
    background: linear-gradient(rgb(2, 8, 66), rgb(3, 3, 118));
    max-width: 500px;
@@ -59,6 +60,7 @@
     font-size:30px;
     text-align: center;
     color:white;
+    padding: 10px;
     }
     .container-one h4{
       color: white;
@@ -71,23 +73,33 @@
       display:flex;
       text-align:center;
       margin-left:30px;
-      margin-top: 90px;
+      margin-top: 50px;
     }
-.button-first{
-    max-width: 220px;
-    max-height: 50px;
-    display: flex;
-    justify-content: start;
-   margin: 40px;
-   margin-left: 60px;
-   
+header .about > .container-one > .buttons {
+  display: flex;
+  justify-content: space-around;
+  border: 0;
+  margin-top: 50px;
+  font-size: large; 
 }
-  .button-second{
-    display: flex;
-    justify-content: end;
-  margin-top: -70px;
-  margin-right: 120px;  
-  }
+.card-button{
+  padding: 12px 18px;
+  border: 0;
+  border: solid white;
+  border-width: 1px;
+  background: linear-gradient(rgb(2, 8, 66), rgb(3, 3, 118));  
+  cursor: pointer;
+  color: white;
+  transition: .7s;
+  font-weight: bold;
+
+  
+}
+.card-button:hover {
+  background: white;
+  color: rgb(1, 11, 26);
+
+}
     
 
 .img-header{
@@ -103,5 +115,15 @@
 .top{
   display: absolute;
 }
-  
+  .bottom-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .img-bottom {
+    display: flex;
+    flex-direction: row;
+    height: 95px;
+    justify-content: space-around;
+  }
   
