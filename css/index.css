@@ -9,7 +9,7 @@
   .top {
       background: linear-gradient(blue, pink);
       height: 120vh;
-      
+      width: 1600px;
   }
   a{
     text-decoration: none;
@@ -86,11 +86,11 @@ header .about > .container-one > .buttons {
   padding: 12px 18px;
   border: 0;
   border: solid white;
-  border-width: 1px;
+  border-width: 2px;
   background: linear-gradient(rgb(2, 8, 66), rgb(3, 3, 118));  
   cursor: pointer;
   color: white;
-  transition: .7s;
+  transition: .4s;
   font-weight: bold;
 
   
@@ -149,15 +149,49 @@ text-align: center;
 margin-top: 100px;
 }
 .offers{
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  align-content: stretch;
+  align-content: stretch; */
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  justify-content: space-around;
+  margin-top: 250px;
+  font-size: 19px;
+  white-space: nowrap;  
+  
   }
 .row-img{
   height: auto;
   margin:20px;
+  background: linear-gradient(rgb(196, 197, 202), rgb(125, 125, 133));
+  padding: 25px 125px;
+
+}
+ .knopki {
+  display: flex;
+  justify-content: space-around;
+  border: 0;
+  font-size: large;
+
+}
+.drac-button {
+  padding: 8px 32px;
+  border: 0;
+  border: solid blue;
+  border-width: 2px;
+  background: white;  
+  cursor: pointer;
+  color: blue;
+  transition: .4s;
+  font-weight: bold;
+  border-radius: 6px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.drac-button:hover {
+  background-color: blue;
+  color: white;
 }
 
 
