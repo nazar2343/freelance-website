@@ -51,18 +51,45 @@
     flex-direction: column;
    margin-top: 230px;
    margin-left:110px;
-   background: linear-gradient(rgb(255, 255, 255), rgb(0, 158, 163));
+   background: linear-gradient(rgb(2, 8, 66), rgb(3, 3, 118));
    max-width: 500px;
    height: 300px;
   }
   .container-one h3{
     font-size:30px;
-  }
-  .container-one button{
+    text-align: center;
+    color:white;
+    }
+    .container-one h4{
+      color: white;
+      font-size: 17px;
+      text-align: center;
+    }
+    .container-one h5{
+      color: white;
+      font-size:15px;
+      display:flex;
+      text-align:center;
+      margin-left:30px;
+      margin-top: 90px;
+    }
+.button-first{
     max-width: 220px;
     max-height: 50px;
-
+    display: flex;
+    justify-content: start;
+   margin: 40px;
+   margin-left: 60px;
+   
+}
+  .button-second{
+    display: flex;
+    justify-content: end;
+  margin-top: -70px;
+  margin-right: 120px;  
   }
+    
+
 .img-header{
   display: flex;
   justify-content: end;
