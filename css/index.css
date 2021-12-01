@@ -8,7 +8,7 @@
   } 
   .top {
       background: linear-gradient(blue, pink);
-      height: 100vh;
+      height: 120vh;
       
   }
   a{
@@ -119,11 +119,47 @@ header .about > .container-one > .buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top:30px;
+    margin-left: 120px;
   }
+  
   .img-bottom {
     display: flex;
     flex-direction: row;
     height: 95px;
     justify-content: space-around;
+    margin-top: 40px;
+    
   }
+  .img-bottom img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px ;
+    border-bottom-right-radius: 6px;
+  }
+  .page-second {
+    margin-top: 100px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ justify-content: space-around;
+ }
+ .main-page h3{
+text-align: center;
+margin-top: 100px;
+}
+.offers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: stretch;
+  }
+.row-img{
+  height: auto;
+  margin:20px;
+}
+
+
+
   
