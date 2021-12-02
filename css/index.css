@@ -322,3 +322,35 @@ margin-top: 100px;
   font-family:Palatino, URW Palladio L, serif;
   line-height: 30px;
 }
+
+ .follow-us {
+  height: 40vh;
+  display: flex;
+  justify-content: end;
+  margin-right: 175px;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.social-icons-footer {
+  display: flex;
+  justify-content: end;
+  margin-right: 175px;
+} 
+.footer-navigation {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  justify-content: space-around;
+  column-width: 100px;
+
+}
+.zaebav-footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  background: white;
+  color: #000;
+  border: 0;
+  cursor: pointer;
+}
+
+
