@@ -164,21 +164,21 @@ margin-top: 100px;
   }
 .row-img {
   position: relative;
+  width: 300px;
   margin-bottom: 20px;
   padding-bottom: 30px;
   background: #ddd9d9;
   color: #070606;
   text-decoration: none;
   box-shadow: rgb(0,0,0,0.19) 0 0 8px 0;
-  border-radius: 4px;  
-
+  border-radius: 4px;
+  
 }
  .knopki {
   display: flex;
   justify-content: space-around;
   border: 0;
   font-size: large;
-
 }
 .drac-button {
   padding: 8px 32px;
@@ -197,6 +197,29 @@ margin-top: 100px;
   background-color: blue;
   color: white;
 }
+.work-easy{
+  display: grid;
+  grid-template-columns: 100px 100px ;
+  margin-left: 600px;
+  justify-content: space-around;
+  margin-top: 70px;
+  white-space: nowrap;
+  max-width: 700px; 
+}
+ .job-easy{
+   position: relative;
+   
+    text-align: center;
+ } 
+ .main-page-second > .image-managment img{
+    position: relative;
+    top: 300px;
+  }
+
+  .main-page-second{
+    background-color: rgb(241, 241, 241);
+    
+  }
 
 
 
