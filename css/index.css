@@ -205,22 +205,41 @@ margin-top: 100px;
   margin-top: 70px;
   white-space: nowrap;
   max-width: 700px; 
+  font-size: 17px;
 }
  .job-easy{
    position: relative;
-   
-    text-align: center;
+   font-size: 47px;
+    text-align: end;
+    margin-top: -139px;
+    justify-content: end;
+    margin-right: 400px; 
  } 
- .main-page-second > .image-managment img{
+ .main-page-second > .image-management img{
     position: relative;
-    top: 300px;
+    top: 150px;
+    margin-left: 150px;
   }
 
   .main-page-second{
     background-color: rgb(241, 241, 241);
     
   }
-
-
+  .image-management {
+    display: flex;
+    margin-top: 100px;
+    height: 415px;
+    width: 362px;
+  }
+.job-easy h4 {
+  font-size: 50px;
+  margin-right: 280px;
+}
+.item-img h5 {
+  font-size: 17px;
+ margin-top: -22px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
 
   
