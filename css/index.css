@@ -8,7 +8,7 @@
   } 
   .top {
       background: linear-gradient(blue, pink);
-      height: 120vh;
+      min-height: 120vh;
       max-width: 1600px;
   }
   a{
@@ -47,6 +47,7 @@
     border-bottom: 2px solid rgb(26, 133, 2);
     color: rgb(184, 180, 180);
   }
+  
   .topnav .icon{
     display: none;
   }
@@ -58,7 +59,7 @@
    margin-left:110px;
    background: linear-gradient(rgb(2, 8, 66), rgb(3, 3, 118));
    max-width: 500px;
-   height: 300px;
+   min-height: 300px;
   }
   .container-one h3{
     font-size:30px;
@@ -112,7 +113,7 @@ header .about > .container-one > .buttons {
 }
 .img-header img{
   max-width: 500px;
-  height: 300px;
+  max-height: 300px;
   margin-right:110px;
   margin-top:-300px;
 }
@@ -130,9 +131,10 @@ header .about > .container-one > .buttons {
   .img-bottom {
     display: flex;
     flex-direction: row;
-    height: 95px;
+    max-height: 95px;
     justify-content: space-around;
     margin-top: 40px;
+    
     
   }
   .img-bottom img{
@@ -357,6 +359,10 @@ margin-top: 100px;
  grid-row-gap: 1em;
 }
 
+.about{
+  max-width: 3000px;
+  max-height: 3000px;
+}
 .wrapper a{
   color:black;
   font-size: 17px;
@@ -367,6 +373,16 @@ margin-top: 100px;
     color:greenyellow;
    }
    
+@media screen and (max-width: 1000px) {
+  .container-one .buttons{
+    flex-direction: column;
+    max-width: max-content;
+    justify-content: center;
+  }
+  
+}
+
+
    @media screen and (max-width: 992px) {
      .face h1 {
     font-size: 35px;
@@ -376,17 +392,39 @@ margin-top: 100px;
        flex-direction: column;
        align-items: start; 
         }
-       .about {
-         display: block;
-         flex-direction: column;
-         align-items: flex-start;
+        /* .about{ 
+          display: flex;
+          flex-direction: column;
+        }
+        */
+        .bottom-header  {
+          display: none;
+        }
+        .img-bottom{
+          display: flex;
+          flex-direction: column;
+          margin-left: 230px;
+          margin-top: 400px;
 
-       }
-
-    
-
-     
-   }
+        }
+        .img-bottom img{
+         padding: 15px;
+          max-height: 95px;
+          max-width: 900px;
+          
+        }
+        .container-one{
+          margin-top: -300px;
+          margin-right: 1px;
+        }
+        .img-header{
+          margin-top: 350px;
+          margin-right: 217px;
+        }
+      .top{
+        min-height: 1600px;
+      }
+      }
   
 
 
