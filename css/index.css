@@ -397,11 +397,29 @@ margin-top: 100px;
        flex-direction: column;
        align-items: start; 
         }
-        /* .about{ 
-          display: flex;
-          flex-direction: column;
+        .follow-us h3 {
+        white-space: nowrap;
+       display: flex;
+       margin-left: 150px;
+       font-size: 22px;
+       margin-top: 30px;
         }
-        */
+        .social-icons-footer {
+          display: flex;
+          margin-right: 250px;
+          margin-top: -220px;
+        }
+        .wrapper {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+       margin-top: 100px;
+        }
+        .down-footer {
+          padding: 5px 5px;
+        }
+       
         .bottom-header  {
           display: none;
         }
@@ -436,6 +454,9 @@ margin-top: 100px;
     .img-bottom img{
       min-height: 200px;
       min-width: 600px;
+    }
+    .img-bottom {
+      margin-top: 300px;
     }
   
   }
