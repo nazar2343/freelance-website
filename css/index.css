@@ -56,7 +56,8 @@
     justify-content: start;
     flex-direction: column;
    margin-top: 180px;
-   margin-left:110px;
+   margin-left:100px;
+  
    background: linear-gradient(rgb(2, 8, 66), rgb(3, 3, 118));
    max-width: 500px;
    min-height: 300px;
@@ -379,13 +380,17 @@ margin-top: 100px;
     max-width: max-content;
     justify-content: center;
   }
-  
+ 
 }
 
 
    @media screen and (max-width: 992px) {
      .face h1 {
     font-size: 35px;
+     }
+     .container-one {
+     margin: 0 auto;
+      
      }
      .topnav {
        display: flex;
@@ -403,19 +408,21 @@ margin-top: 100px;
         .img-bottom{
           display: flex;
           flex-direction: column;
-          margin-left: 230px;
-          margin-top: 400px;
-
-        }
+          margin-top: 170px;
+         
+      }
         .img-bottom img{
          padding: 15px;
           max-height: 95px;
           max-width: 900px;
+          margin: auto;
           
+          margin-right: 440px;
         }
         .container-one{
           margin-top: -300px;
-          margin-right: 1px;
+          margin-right: 327px;
+        
         }
         .img-header{
           margin-top: 350px;
