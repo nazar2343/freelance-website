@@ -432,6 +432,12 @@ margin-top: 100px;
         min-height: 1600px;
       }
       }
+  @media screen and (max-width: 750px) {
+    .img-bottom img{
+      min-height: 200px;
+      min-width: 600px;
+    }
   
+  }
 
 
