@@ -1,24 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Test1 from './Test1';
+import Header from './Header/Header';
+
+
+const headerData = {
+  site_name: 'Freelance WebSite',
+  nav: [
+    {"link": "nav1", "text": "mylink1"},
+    {"link": "nav2", "text": "mylink2"},
+    {"link": "nav3", "text": "mylink3"}
+  ]
+}
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header data = {headerData}></Header>
+    <Test1></Test1>
+    </>
   );
 }
 
